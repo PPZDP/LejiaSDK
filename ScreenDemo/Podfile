@@ -1,0 +1,12 @@
+# Uncomment the next line to define a global platform for your project
+use_frameworks!
+platform :ios, '9.0'
+inhibit_all_warnings!
+
+target 'ScreenDemo' do
+  
+  pod 'SSZipArchive'
+
+  pod 'CocoaAsyncSocket'
+
+end
